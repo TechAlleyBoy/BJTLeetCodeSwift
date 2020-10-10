@@ -7,7 +7,6 @@
 //
 
 import Foundation
-// MARK: 数组算法1
 /*
 在整数数组中，如果一个整数的出现频次和它的数值大小相等，我们就称这个整数为「幸运数」。
 
@@ -48,6 +47,7 @@ import Foundation
 1 <= arr[i] <= 500
 */
 
+// MARK: 1394 找出数组中的幸运数
 func findLucky(_ arr: [Int]) -> Int {
     if arr.count == 0 {
         return -1
@@ -72,7 +72,6 @@ func findLucky(_ arr: [Int]) -> Int {
     return maxNum
 }
 
-// MARK: 数组算法2
 /*
 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
 
@@ -89,6 +88,8 @@ nums2 = [2,5,6],       n = 3
 
 输出: [1,2,2,3,5,6]
  */
+
+// 88 合并两个有序数组
 func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
     if m==0 {
         nums1 = nums2
@@ -121,7 +122,6 @@ func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
     nums1 = tmp
 }
 
-// MARK: 数组算法3
 /*
 给你一个数组 nums ，数组中有 2n 个元素，按 [x1,x2,...,xn,y1,y2,...,yn] 的格式排列。
 
@@ -150,7 +150,7 @@ func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
 nums.length == 2n
 1 <= nums[i] <= 10^3
 */
-
+// MARK: 1470 重新排列数组
 func shuffle(_ nums:[Int], _ n:Int) -> [Int] {
     var tmpNums:[Int] = []
     for i in 0...n-1 {
@@ -161,7 +161,7 @@ func shuffle(_ nums:[Int], _ n:Int) -> [Int] {
     
 }
 
-// MARK: 数组算法4
+
 /*
 给你两个整数，n 和 start 。
 
@@ -195,6 +195,7 @@ func shuffle(_ nums:[Int], _ n:Int) -> [Int] {
 输出：2
 */
 
+// MARK: 1486 数组异或操作
 func xorOperation(_ n: Int, _ start: Int) -> Int {
     if n==0 {
         return 0

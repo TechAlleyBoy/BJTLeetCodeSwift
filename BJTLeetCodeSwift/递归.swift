@@ -30,6 +30,7 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 0 <= n <= 100
 */
 
+// MARK: 剑指 Offer 10- I 斐波那契数列
 let constant = 1000000007
 
 func fib(_ n: Int) -> Int {
@@ -63,11 +64,10 @@ func fibHash(_ n: Int,_ map:inout [Int:Int]) -> Int {
 二叉搜索树保证具有唯一的值。
 
 示例 1：
-
 输入：root = [10,5,15,3,7,null,18], L = 7, R = 15
 输出：32
+ 
 示例 2：
-
 输入：root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
 输出：23
  
@@ -77,7 +77,7 @@ func fibHash(_ n: Int,_ map:inout [Int:Int]) -> Int {
 树中的结点数量最多为 10000 个。
 最终的答案保证小于 2^31。
 */
-
+// MARK: 938 二叉搜索树的范围和
 public class TreeNode {
     public var val: Int
     public var left: TreeNode?
@@ -108,21 +108,21 @@ func rangeSumBST(_ root: TreeNode?, _ L: Int, _ R: Int) -> Int {
 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
 
 示例 1：
-
 输入：n = 2
 输出：2
+ 
 示例 2：
-
 输入：n = 7
 输出：21
+ 
 示例 3：
-
 输入：n = 0
 输出：1
 提示：
 
 0 <= n <= 100
 */
+// MARK: LeetCode70. 爬楼梯 && 剑指 Offer 10- II 青蛙跳台阶问题
 func numWays(_ n: Int) -> Int {
     var map:[Int:Int] = [:]
     return numWaysHash(n, &map)
@@ -141,5 +141,5 @@ func numWaysHash(_ n: Int,_ map:inout [Int:Int]) -> Int {
         map[n] = (first + second) % constant
         return map[n]!
     }
-    return -1
+    return map[n]!
 }

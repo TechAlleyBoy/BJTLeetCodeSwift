@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: 链表算法1
+
 /*
 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
 
@@ -18,6 +18,7 @@ import Foundation
 输入: 1->2->3->4->5->NULL
 输出: 5->4->3->2->1->NULL
 */
+// MARK: 剑指 Offer 24 反转链表
 public class ListNode {
     public var val: Int
     public var next: ListNode?

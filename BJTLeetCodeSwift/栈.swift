@@ -8,7 +8,6 @@
 
 import Foundation
 
-// MARK: 栈算法1
 /*
 用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，分别完成在队列尾部插入整数和在队列头部删除整数的功能。(若队列中没有元素，deleteHead 操作返回 -1 )
 
@@ -27,6 +26,8 @@ import Foundation
 [[],[],[5],[2],[],[]]
 输出：[null,-1,null,null,5,2]
 */
+
+// MARK: 剑指 Offer 09. 用两个栈实现队列
 class Stack {
     var array: [Int]
     init() {
@@ -79,7 +80,6 @@ class CQueue {
 }
 
 
-// MARK: 栈算法2
 /*
 有效括号字符串为空 ("")、"(" + A + ")" 或 A + B，其中 A 和 B 都是有效的括号字符串，+ 代表字符串的连接。例如，""，"()"，"(())()" 和 "(()(()))" 都是有效的括号字符串。
 
@@ -98,6 +98,7 @@ class CQueue {
 解释：
 输入字符串为 "(()())(())"，原语化分解得到 "(()())" + "(())"，
 删除每个部分中的最外层括号后得到 "()()" + "()" = "()()()"。
+ 
 示例 2：
 
 输入："(()())(())(()(()))"
@@ -105,6 +106,7 @@ class CQueue {
 解释：
 输入字符串为 "(()())(())(()(()))"，原语化分解得到 "(()())" + "(())" + "(()(()))"，
 删除每个部分中的最外层括号后得到 "()()" + "()" + "()(())" = "()()()()(())"。
+ 
 示例 3：
 
 输入："()()"
@@ -121,29 +123,28 @@ S[i] 为 "(" 或 ")"
 S 是一个有效括号字符串
 */
 
-class Solution {
-    func removeOuterParentheses(_ S: String) -> String {
-        var tmpStr:String = String()
-    if S.isEmpty {
-        tmpStr = ""
-    }else {
-        var left = 0
-        for char in S {
-            if char == "(" {
-                if left != 0 {
-                    tmpStr.append(char)
-                }
-                left+=1
+// MARK: LeetCode1021 删除最外层的括号
+func removeOuterParentheses(_ S: String) -> String {
+    var tmpStr:String = String()
+if S.isEmpty {
+    tmpStr = ""
+}else {
+    var left = 0
+    for char in S {
+        if char == "(" {
+            if left != 0 {
+                tmpStr.append(char)
             }
-            
-            if char == ")" {
-                left-=1
-                if left != 0 {
-                    tmpStr.append(char)
-                }
+            left+=1
+        }
+        
+        if char == ")" {
+            left-=1
+            if left != 0 {
+                tmpStr.append(char)
             }
         }
     }
-    return tmpStr
-    }
+}
+return tmpStr
 }

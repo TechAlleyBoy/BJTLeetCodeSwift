@@ -67,12 +67,12 @@
 		36DBB4BB253152850057873B /* BJTLeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				36DBB4CF2531531B0057873B /* main.swift */,
 				36DBB4C32531529C0057873B /* 递归.swift */,
 				36DBB4C42531529C0057873B /* 哈希算法.swift */,
 				36DBB4C62531529D0057873B /* 链表.swift */,
 				36DBB4C82531529D0057873B /* 数组.swift */,
 				36DBB4C72531529D0057873B /* 栈.swift */,
-				36DBB4CF2531531B0057873B /* main.swift */,
 			);
 			path = BJTLeetCodeSwift;
 			sourceTree = "<group>";
