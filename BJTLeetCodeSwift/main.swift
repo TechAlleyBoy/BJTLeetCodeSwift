@@ -108,3 +108,9 @@ print(queue.deleteHead())
 
 // MARK: LeetCode1021 删除最外层的括号
 print(removeOuterParentheses("(()())(())(()(()))"))
+
+// MARK: ---------------🇨🇳数学🇨🇳------------------
+// MARK: LeetCode7. 整数反转
+print(reverse(123))
+print(reverse(-123))
+print(reverse(120))

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36174AA62533EB5000822828 /* 数学.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36174AA52533EB5000822828 /* 数学.swift */; };
 		36DBB4C92531529D0057873B /* 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4C32531529C0057873B /* 递归.swift */; };
 		36DBB4CA2531529D0057873B /* 哈希算法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4C42531529C0057873B /* 哈希算法.swift */; };
 		36DBB4CC2531529D0057873B /* 链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4C62531529D0057873B /* 链表.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36174AA52533EB5000822828 /* 数学.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "数学.swift"; sourceTree = "<group>"; };
 		36DBB4B9253152850057873B /* BJTLeetCodeSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BJTLeetCodeSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DBB4C32531529C0057873B /* 递归.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "递归.swift"; sourceTree = "<group>"; };
 		36DBB4C42531529C0057873B /* 哈希算法.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "哈希算法.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				36DBB4C62531529D0057873B /* 链表.swift */,
 				36DBB4C82531529D0057873B /* 数组.swift */,
 				36DBB4C72531529D0057873B /* 栈.swift */,
+				36174AA52533EB5000822828 /* 数学.swift */,
 			);
 			path = BJTLeetCodeSwift;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36DBB4CD2531529D0057873B /* 栈.swift in Sources */,
+				36174AA62533EB5000822828 /* 数学.swift in Sources */,
 				36DBB4D02531531B0057873B /* main.swift in Sources */,
 				36DBB4C92531529D0057873B /* 递归.swift in Sources */,
 				36DBB4CE2531529D0057873B /* 数组.swift in Sources */,
