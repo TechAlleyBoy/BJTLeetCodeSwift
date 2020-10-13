@@ -87,6 +87,12 @@ print(shuffle([2,5,1,3,4,7], 3))
 // MARK: 1486 数组异或操作
 print(xorOperation(5, 0))
 
+// MARK: 1480. 一维数组的动态和
+print(runningSum([1,2,3,4]))
+
+
+// MARK: 1431. 拥有最多糖果的孩子
+print(kidsWithCandies([4,2,1,1,2], 2))
 // MARK: ---------------🇨🇳栈🇨🇳------------------
 
 // MARK: 剑指 Offer 09. 用两个栈实现队列
@@ -114,3 +120,7 @@ print(removeOuterParentheses("(()())(())(()(()))"))
 print(reverse(123))
 print(reverse(-123))
 print(reverse(120))
+
+// MARK: ---------------🇨🇳字符串🇨🇳------------------
+// MARK: 剑指 Offer 58 - II. 左旋转字符串
+print(reverseLeftWords("abcdefg", 2)) 

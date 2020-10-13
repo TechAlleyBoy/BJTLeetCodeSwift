@@ -14,6 +14,7 @@
 		36DBB4CD2531529D0057873B /* 栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4C72531529D0057873B /* 栈.swift */; };
 		36DBB4CE2531529D0057873B /* 数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4C82531529D0057873B /* 数组.swift */; };
 		36DBB4D02531531B0057873B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DBB4CF2531531B0057873B /* main.swift */; };
+		5080476525359FF200E1DA73 /* 字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080476425359FF200E1DA73 /* 字符串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		36DBB4C72531529D0057873B /* 栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "栈.swift"; sourceTree = "<group>"; };
 		36DBB4C82531529D0057873B /* 数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "数组.swift"; sourceTree = "<group>"; };
 		36DBB4CF2531531B0057873B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5080476425359FF200E1DA73 /* 字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "字符串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				36DBB4C82531529D0057873B /* 数组.swift */,
 				36DBB4C72531529D0057873B /* 栈.swift */,
 				36174AA52533EB5000822828 /* 数学.swift */,
+				5080476425359FF200E1DA73 /* 字符串.swift */,
 			);
 			path = BJTLeetCodeSwift;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				36DBB4CD2531529D0057873B /* 栈.swift in Sources */,
 				36174AA62533EB5000822828 /* 数学.swift in Sources */,
 				36DBB4D02531531B0057873B /* main.swift in Sources */,
+				5080476525359FF200E1DA73 /* 字符串.swift in Sources */,
 				36DBB4C92531529D0057873B /* 递归.swift in Sources */,
 				36DBB4CE2531529D0057873B /* 数组.swift in Sources */,
 				36DBB4CC2531529D0057873B /* 链表.swift in Sources */,
